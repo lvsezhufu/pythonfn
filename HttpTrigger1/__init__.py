@@ -22,7 +22,7 @@ def kv_cred():
 
 
 def main(req: func.HttpRequest) -> func.HttpResponse:
-    logger.info('Python HTTP trigger function processed a request.--mar1')
+    logger.info('Python HTTP trigger function processed a request.--mar2')
     try:
         time_now = int(time.time())
         secretName = req.params.get('name')
